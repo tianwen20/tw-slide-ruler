@@ -6,6 +6,8 @@
 
 ###### [README in English](README.md)
 
+原项目 [https://github.com/wusb/slide-ruler] 
+
 - 原生 js 开发、不依赖任何框架和库的轻量级移动端数字键盘
 - 可自定义尺子颜色、尺寸及精度等
 - 支持惯性及弹性

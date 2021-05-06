@@ -1,5 +1,5 @@
 {
-  "name": "slide-ruler",
+  "name": "tw-slide-ruler",
   "version": "1.0.0",
   "main": "lib/slide-ruler.js",
   "repository": "https://github.com/simbawus/slide-ruler.git",

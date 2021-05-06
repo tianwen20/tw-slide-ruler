@@ -6,6 +6,8 @@
 
 ###### [中文 README](README-zh_CN.md)
 
+The raw project [https://github.com/wusb/slide-ruler]
+
 ## Features
 - Developed with native javascript, doesn't rely on any frameworks and libraries.
 - Customizable colors, sizes, precision, etc.
