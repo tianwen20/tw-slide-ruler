@@ -1,4 +1,4 @@
-# SlideRuler [Demo](https://simbawus.github.io/slide-ruler)
+# SlideRuler [Demo](https://github.com/tianwen20/tw-slider-ruler)
 
 [![npm](https://img.shields.io/npm/v/tw-slider-ruler.svg)](https://www.npmjs.com/package/tw-slider-ruler)
 [![npm](https://img.shields.io/npm/dt/tw-slider-ruler.svg)](https://www.npmjs.com/package/tw-slider-ruler)
