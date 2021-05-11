@@ -1,10 +1,10 @@
 {
-  "name": "tw-slide-ruler",
+  "name": "zozo-slide-ruler",
   "version": "1.0.0",
   "main": "lib/slide-ruler.js",
   "repository": "https://github.com/simbawus/slide-ruler.git",
-  "author": "simbawu <connect@simbawu.com>",
-  "contributors": ["tianwen <tianwen20@outlook.com>"],
+  "author": "tianwen <tianwen20@outlook.com>",
+  "contributors": ["simbawu <connect@simbawu.com>"],
   "description": "SlideRuler Component 滑尺数值选择器",
   "keywords": [
     "slide",
