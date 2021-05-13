@@ -1,8 +1,8 @@
-# SlideRuler [Demo](https://github.com/tianwen20/tw-slider-ruler)
+# TWSlideRuler [Demo](https://github.com/tianwen20/tw-slide-ruler)
 
-[![npm](https://img.shields.io/npm/v/tw-slider-ruler.svg)](https://www.npmjs.com/package/tw-slider-ruler)
-[![npm](https://img.shields.io/npm/dt/tw-slider-ruler.svg)](https://www.npmjs.com/package/tw-slider-ruler)
-[![npm](https://img.shields.io/npm/l/tw-slider-ruler.svg)](https://www.npmjs.com/package/tw-slider-ruler)
+[![npm](https://img.shields.io/npm/v/tw-slide-ruler)](https://www.npmjs.com/package/tw-slide-ruler)
+[![npm](https://img.shields.io/npm/dt/tw-slide-ruler)](https://www.npmjs.com/package/tw-slide-ruler)
+[![npm](https://img.shields.io/npm/l/tw-slide-ruler)](https://www.npmjs.com/package/tw-slide-ruler)
 
 ###### [README in English](README.md)
 
@@ -47,7 +47,7 @@
 ### Install
 
 ```shell
-yarn add slide-ruler --dev
+yarn add tw-slide-ruler --dev
 ```
 
 ### Usage Example
@@ -72,7 +72,7 @@ yarn add slide-ruler --dev
 
 ```javascript
 //slide-ruler.js
-import SlideRuler from 'slide-ruler';
+import SlideRuler from 'tw-slide-ruler';
 
 function handleValue(value){
   console.log(value); //SlideRuler return value
@@ -84,7 +84,7 @@ new SlideRuler(
         el: document.querySelector('#app'),
         maxValue: 230,
         minValue: 100,
-        currentValue: 180
+        currentValue: 180,
         handleValue: handleValue,
         precision: 1
     }
@@ -95,7 +95,7 @@ new SlideRuler(
 
 ```jsx
 import React from 'react';
-import SlideRuler from 'slide-ruler';
+import SlideRuler from 'tw-slide-ruler';
 
 class SlideRulerPage extends React.Component {
 
@@ -120,7 +120,7 @@ class SlideRulerPage extends React.Component {
         el: this.refs.slideRuler,
         maxValue: 230,
         minValue: 100,
-        currentValue: 180
+        currentValue: 180,
         handleValue: handleValue,
         precision: 1
       }
@@ -144,7 +144,7 @@ export default SlideRulerPage;
   <div></div>
 </template>
 <script>
-import SlideRuler from 'slide-ruler';
+import SlideRuler from 'tw-slide-ruler';
 export default {
   mounted () {
     this._renderSlideRuler();
@@ -156,7 +156,7 @@ export default {
             el: this.$el,
             maxValue: 230,
             minValue: 100,
-            currentValue: 180
+            currentValue: 180,
             handleValue: handleValue,
             precision: 1
           }
@@ -175,7 +175,7 @@ export default {
 
 ```typescript
 import { Component, ViewChild, OnInit, ViewEncapsulation} from '@angular/core';
-import SlideRuler from 'slide-ruler';
+import SlideRuler from 'tw-slide-ruler';
 
 @Component({
   selector: 'my-app',
@@ -198,7 +198,7 @@ export class AppComponent  implements OnInit{
             el: this.slideRuler.nativeElement,
             maxValue: 230,
             minValue: 100,
-            currentValue: 180
+            currentValue: 180,
             handleValue: handleValue,
             precision: 1
           }
